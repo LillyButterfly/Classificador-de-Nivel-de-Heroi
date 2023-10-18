@@ -1,0 +1,95 @@
+:root{
+    --text-color: white;
+    --primary-color: #6A5ACD;
+    --secondary-color: #FF1493;
+    --font-family: 'Lato', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input [type="number"] {
+    -moz-appearance: spinner-textfield;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: spinner-textfield;
+}
+
+body{
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+}
+
+input {
+    background-image:none; 
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+  }
+
+  input, .btn, .resultado{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    min-width: 200px;
+    min-height: 20px;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 350px;
+}
+
+.container h1{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.container .btn{
+    margin: 35px 0;
+    font-weight: 700;
+    font-size: 20px; 
+    cursor: pointer;   
+}
+
+.btn:hover{
+    background-color:var(--secondary-color);
+    transition: 0.3s ease-in-out;
+}
+
+.resultado{
+    background-color: #6A5ACD;
+    height: 80px;
+}
+
+.resultado h2 > spam{
+    font-weight: 400;
+    font-size: 20px;
+}
+
