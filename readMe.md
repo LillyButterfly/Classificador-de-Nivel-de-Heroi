@@ -1,5 +1,15 @@
 ## Projeto desenvolvido para aula prática DIO.
 
+![Captura de Tela (8842)](https://github.com/LillyButterfly/Classificador-de-Nivel-de-Heroi/assets/88951197/4d9a153f-781e-45a6-b0db-858322006ea0)
+
+
+## Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- JavaScript
+
 
 Instruções para entrega
 # 1️⃣ Desafio Classificador de nível de Herói
